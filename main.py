@@ -34,8 +34,7 @@ async def on_message_edit(before, after):
     await before.channel.send(
         f'{before.author} edit a message.\n'
         f'before: ( {before.content} )\n'
-        f'After: ( {after.content} )\n'
-        f'Therefor {before.author} fucked up.'
+        f'After: ( {after.content} )
     )
 
 
